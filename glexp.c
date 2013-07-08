@@ -273,7 +273,7 @@ void reshape(int w, int h) {
 	glBindFramebuffer(GL_FRAMEBUFFER, fbuf);
 
 	GLuint cur_tex = src_tex_id;
-	for (i = 0; i < 3; i++) {
+	for (i = 0; i < 20; i++) {
 		glBindTexture(GL_TEXTURE_2D, cur_tex);
 		cur_tex = buf_texs[i % 2];
 		glFramebufferTexture2D(GL_FRAMEBUFFER,GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, cur_tex, 0);

@@ -24,15 +24,19 @@ weight[1] = 3003.0 / 23150.0;
 weight[0] = 3432.0 / 23150.0;
 
 
-/*float weight[8];
-weight[7] = 0.125 / 2.0;
-weight[6] = 0.125 / 2.0;
-weight[5] = 0.125 / 2.0;
-weight[4] = 0.125 / 2.0;
-weight[3] = 0.125 / 2.0;
-weight[2] = 0.125 / 2.0;
-weight[1] = 0.125 / 2.0;
-weight[0] = 0.125 / 2.0;*/
+/*float offset[5];
+offset[0] = 0.0 / 256.0;
+offset[1] = 1.0 / 256.0;
+offset[2] = 2.0 / 256.0;
+offset[3] = 3.0 / 256.0;
+offset[4] = 4.0 / 256.0;
+
+float weight[5];
+weight[4] = 0.105;
+weight[3] = 0.105;
+weight[2] = 0.105;
+weight[1] = 0.105;
+weight[0] = 0.105;*/
 
 
 	vec4 FragmentColor;
